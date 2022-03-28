@@ -22,9 +22,9 @@ const fs = require('fs-extra');
 
 const PREFIX = '!'; //Change this to anything you like as a prefix
 var regexp = /[^\s"]+|"([^"]*)"/gi;
-const file = './src/sites.json';
+const file = 'sites.json';
 var sitesToMonitor = [];
-const settingsFile = './src/settings.json';
+const settingsFile = 'settings.json';
 var cronTime = { interval: 5 };
 
 //Events when bot comes online
